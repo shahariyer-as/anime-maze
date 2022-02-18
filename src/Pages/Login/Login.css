@@ -1,0 +1,49 @@
+.login-section {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1981dd;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+}
+
+.form-middle {
+  margin-top: 0px;
+  padding-top: 9rem;
+}
+
+.color-text {
+  color: white;
+}
+.login-form input {
+  padding: 7px 15px 7px 15px;
+  border-style: hidden;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.label-name {
+  margin-top: 17px;
+  color: white;
+  position: absolute;
+  margin-left: 475px;
+}
+.form-conf input {
+  padding: 8px 35px 8px 35px;
+  border-style: hidden;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.form-conf {
+  margin-top: 20px;
+}
+.form-submit {
+  padding: 8px 35px 8px 35px;
+  border-style: hidden;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
