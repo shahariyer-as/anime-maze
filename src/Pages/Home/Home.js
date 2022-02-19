@@ -6,8 +6,12 @@ const Home = () => {
     return (
         <div>
             <Nav></Nav>
-            <h1>sffs</h1>
-            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, labore.</div>
+            <div>
+                {/* drop down animies  */}
+                <h1>sdf</h1>
+
+
+            </div>
             <Footer></Footer>
         </div>
     );

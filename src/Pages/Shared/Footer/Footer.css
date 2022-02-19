@@ -1,15 +1,17 @@
 .back-color {
   background-color: #1981dd;
-  height: 60px;
-  width: 100%;
   border-radius: 7px;
   display: flex;
+  padding: 6px;
 }
 .back-color p {
   color: white;
   border: 1px solid rgb(255, 255, 255);
-  border-radius: 6px;
+  border-radius: 5px;
   margin-left: 50px;
   font-size: 1em;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 6px 0px 6px;
+}
+.back-color p:hover {
+  border: 2px solid rgb(255, 255, 255);
 }

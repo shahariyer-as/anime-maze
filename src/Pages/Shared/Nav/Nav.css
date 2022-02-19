@@ -1,7 +1,63 @@
 .nav-bar {
   background-color: #1981dd;
-  height: 60px;
-  width: 100%;
-  border-radius: 7px;
+  border-radius: 5px;
   display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+
+.nav-name {
+  text-align: end;
+  color: white;
+  text-decoration: none;
+}
+.nav-bar h1 {
+  margin-right: 800px;
+}
+img.user-img-first {
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  padding-left: 9px;
+  margin-bottom: -10px;
+}
+img.user-img {
+  width: 45px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  position: absolute;
+  margin-top: -9px;
+  padding-left: 8px;
+}
+/*----- responsive ---------- */
+@media only screen and (max-width: 600px) {
+  .nav-bar h1 {
+    margin: auto;
+  }
+  img.user-img {
+    margin-top: -11px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-bar h1 {
+    margin-right: 370px;
+  }
+  img.user-img {
+    margin-top: -13px;
+  }
+  .nav-name {
+    margin-top: -9px;
+    align-items: baseline;
+  }
+}
+@media only screen and (min-width: 968px) {
+  .nav-bar h1 {
+    margin-right: 770px;
+  }
 }

@@ -89,7 +89,7 @@ const Login = () => {
                 <form action="" onSubmit={handleLoginForm}>
                     <div className='form-conf'>
 
-                        <p className='label-name'>mail ID &nbsp; &nbsp;:  &nbsp; &nbsp;:</p>
+                        <p className='label-name'>Email ID &nbsp; &nbsp;: &nbsp; &nbsp;</p>
                         <input type="email" name="email" onBlur={handleEmailChange} id="email" />
 
                     </div>
@@ -99,9 +99,14 @@ const Login = () => {
 
                     </div>
                     <input className='form-submit' type="submit" value="submit" />
-
+                    <button
+                        className="google-btn"
+                        onClick={handleGoogleSignIn}
+                    >
+                        Google LogIn
+                    </button>
                 </form>
-
+                <br />
                 <Link
                     onClick={handleForgetPassword}
                     className="color-text"

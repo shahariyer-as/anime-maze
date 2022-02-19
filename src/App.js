@@ -3,7 +3,6 @@ import './App.css';
 import Login from './Pages/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
 import Register from './Pages/Register/Register';
-import Nav from './Pages/Shared/Nav/Nav';
 import Home from './Pages/Home/Home';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 

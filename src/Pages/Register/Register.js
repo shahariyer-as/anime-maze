@@ -88,22 +88,23 @@ const Register = () => {
                 <h1 className='color-text' >ANIME MAZE</h1>
                 <form action="" onSubmit={handleRegisterForm} >
                     <div className='form-conf'>
-                        <p className='label-name pass'>Your Name  &nbsp; &nbsp;: </p>
+                        <p className='label-name pass'> Name  &nbsp; &nbsp;&nbsp; </p>
 
                         <input type="text" name="name" onBlur={handleNameChange} id="name" />
 
                     </div>
                     <div className='form-conf'>
-                        <p className='label-name pass'>email </p>
+                        <p className='label-name pass'>Email </p>
                         <input type="email" name="email" onBlur={handleEmailChange} id="email" />
 
                     </div>
                     <div className='form-conf'>
-                        <p className='label-name pass'>Password  &nbsp;: </p>
+                        <p className='label-name pass'>Password  &nbsp;</p>
                         <input type="password" name="password" onBlur={handlePasswordChange} id="password" />
                     </div>
                     <div className='form-conf'>
-                        <p className='label-name pass'>re-Password  &nbsp;: </p>
+                        <p className='label-name pass'>
+                            Re-Password  &nbsp; </p>
                         <input type="password" name="password" onBlur={handleCheckPasswordChange} id="password" />
                     </div>
                     <input className='form-submit' type="submit" value="Register" />
