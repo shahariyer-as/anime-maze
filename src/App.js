@@ -5,6 +5,7 @@ import AuthProvider from './contexts/AuthProvider';
 import Register from './Pages/Register/Register';
 import Home from './Pages/Home/Home';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Error from './Pages/Shared/Error/Error';
 
 function App() {
 	return (
@@ -12,17 +13,15 @@ function App() {
 			<AuthProvider>
 				<BrowserRouter>
 					<Routes>
-						<Route path='' element={<PrivateRoute><Home /></PrivateRoute>} />
-					</Routes>
-					<Routes>
+						<Route path='/' element={<PrivateRoute><Home /></PrivateRoute>} />
 						<Route path='/home' element={<PrivateRoute><Home /></PrivateRoute>} />
-					</Routes>
-					<Routes>
 						<Route path='/login' element={<Login />} />
-					</Routes>
-					<Routes>
 						<Route path='/register' element={<Register />} />
+
+						<Route path='*' element={<Error />} />
+
 					</Routes>
+
 				</BrowserRouter>
 			</AuthProvider>
 
