@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import Footer from '../Shared/Footer/Footer';
 import Nav from '../Shared/Nav/Nav';
-import Anime from './Anime/Anime/Anime';
+import Anime from '../Anime/Anime/Anime';
 import './Home.css';
 
 const Home = () => {
