@@ -1,12 +1,11 @@
 import { click } from '@testing-library/user-event/dist/click';
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import Footer from '../Shared/Footer/Footer';
 import Nav from '../Shared/Nav/Nav';
 import Anime from './Anime/Anime/Anime';
-import PieChart from './Anime/Anime/PieChart';
 import './Home.css';
 
 const Home = () => {
@@ -47,7 +46,9 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='container'>
-                        <PieChart></PieChart>
+                        {/* pie chart  */}
+
+
                     </div>
                 </div>
             </div>

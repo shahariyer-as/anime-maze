@@ -6,6 +6,7 @@ import Register from './Pages/Register/Register';
 import Home from './Pages/Home/Home';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Error from './Pages/Shared/Error/Error';
+import PieChart from './Pages/Home/Anime/Anime/PieChart/PieChart';
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 						<Route path='/home' element={<PrivateRoute><Home /></PrivateRoute>} />
 						<Route path='/login' element={<Login />} />
 						<Route path='/register' element={<Register />} />
+						<Route path='/pc/:ChartId' element={<PieChart />} />
 
 						<Route path='*' element={<Error />} />
 
