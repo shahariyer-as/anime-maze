@@ -16,7 +16,7 @@ const SingleAnime = () => {
         <div>
             <Nav></Nav>
             {
-                single?.map(sg => <div sg={sg} >
+                single?.map(sg => <div sg={sg} key={sg.title} >
 
                     <div className="container mt-5 card pt-3 pb-3 " style={{ maxWidth: '840px' }}>
                         <div className="row no-gutters">

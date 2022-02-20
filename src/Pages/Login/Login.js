@@ -116,9 +116,7 @@ const Login = () => {
                     Forget Password ?
                 </Link>
 
-
                 <br /><br />
-
                 <Link className='color-text' style={{ textDecoration: "none" }} to='/register'>Not User? Please Regiser</Link>
                 {error && <p style={{ color: "white" }}>Error Please try again</p>}
             </div >
