@@ -1,16 +1,18 @@
-.back-color {
+.footer-block {
   background-color: #1981dd;
   display: flex;
-  padding: 6px;
+  padding: 18px 0px 18px 0;
 }
-.back-color p {
+.footer-block button {
   color: white;
+  background-color: #1981dd;
+  border-style: none;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
-  margin-left: 50px;
+  margin-left: 55px;
   font-size: 1em;
-  padding: 0px 6px 0px 6px;
+  padding: 0px 3px 0px 3px;
 }
-.back-color p:hover {
+.footer-block button:hover {
   border: 2px solid rgb(255, 255, 255);
 }

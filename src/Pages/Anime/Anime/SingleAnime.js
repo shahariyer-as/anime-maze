@@ -44,7 +44,7 @@ const SingleAnime = () => {
                     </div>
                 </div>)
             }
-            <div style={{ paddingTop: '4rem' }}> <Footer></Footer></div>
+            <div style={{ paddingTop: '2rem' }}> <Footer></Footer></div>
         </div>
     );
 };

@@ -2,7 +2,6 @@ import { click } from '@testing-library/user-event/dist/click';
 import axios from 'axios';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-
 import Footer from '../Shared/Footer/Footer';
 import Nav from '../Shared/Nav/Nav';
 import Anime from '../Anime/Anime/Anime';
@@ -10,7 +9,7 @@ import './Home.css';
 import PieChart from '../Anime/PieChart/PieChart';
 
 const Home = () => {
-    const [search, setSearch] = useState([])
+    const [search, setSearch] = useState([]);
     // console.log(search.results)
     const typeOn = async (e) => {
         click = (e);
@@ -35,7 +34,6 @@ const Home = () => {
                         <Link className="dropdown-item" onClick={() => typeOn('gintama')} to=''> Gintama</Link>
                         <Link className="dropdown-item" onClick={() => typeOn('kimetsu')} to=''> Kimetsu</Link>
                         <Link className="dropdown-item" onClick={() => typeOn('Clannad')} to=''> Clannad</Link>
-
                     </div>
                 </div>
                 <div className='home-block'>
@@ -46,18 +44,16 @@ const Home = () => {
                             }
                         </div>
                     </div>
-                    <div className='container'>
-                        {/* pie chart  */}
+                    <div className=''>
                         <PieChart></PieChart>
-
                     </div>
                 </div>
             </div>
-            <div style={{ paddingTop: '38px' }}>
+            <div style={{ paddingTop: '1rem' }}>
                 <Footer></Footer>
-            </div>
+            </div >
 
-        </div>
+        </div >
     );
 };
 

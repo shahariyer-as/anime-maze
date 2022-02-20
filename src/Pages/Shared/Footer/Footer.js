@@ -6,9 +6,8 @@ const Footer = () => {
     const { logOut } = useAuth();
     return (
         <div>
-            {/* <li className='footer-link'><Link className='footer-link' to="" onClick={logOut}>LogOut</Link></li> */}
-            <div className='back-color'>
-                <p onClick={logOut}>Log Out</p>
+            <div className='footer-block'>
+                <button onClick={logOut}>Log Out</button>
             </div>
         </div>
     );

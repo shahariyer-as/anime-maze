@@ -1,4 +1,5 @@
 .login-section {
+  text-align: center;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -59,3 +60,5 @@
 .google-btn:hover {
   border: 3px solid white;
 }
+
+/*----------- responsive ---------- */

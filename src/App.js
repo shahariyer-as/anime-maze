@@ -18,7 +18,7 @@ function App() {
 						<Route path='/home' element={<PrivateRoute><Home /></PrivateRoute>} />
 						<Route path='/login' element={<Login />} />
 						<Route path='/register' element={<Register />} />
-						<Route path='/sa/:SingleId' element={<SingleAnime />} />
+						<Route path='/sa/:SingleId' element={<PrivateRoute><SingleAnime /></PrivateRoute>} />
 
 						<Route path='*' element={<Error />} />
 
