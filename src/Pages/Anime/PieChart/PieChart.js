@@ -2,20 +2,20 @@ import React from 'react';
 import { VictoryPie } from "victory-pie";
 
 const myData = [
-    { x: "PHP", y: 8 },
-    { x: "Python", y: 13 },
-    { x: "Javascript", y: 65344 },
+    { x: "Tv", y: 23 },
+    { x: "Others", y: 19 },
+    { x: "Specials", y: 44 },
+    { x: "Ova", y: 11 },
 ];
 
 
 const PieChart = () => {
 
     return (
-        <div>
-            <h2>hi bro{ }</h2>
+        <div className='pie'>
             <VictoryPie
                 data={myData}
-                colorScale={["blue", "yellow", "red"]}
+                colorScale={["blue", "yellow", "red", "green"]}
                 radius={100}
             />
         </div>

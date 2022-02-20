@@ -10,3 +10,8 @@
 .date-card {
   display: flex;
 }
+
+/*------ pie chart css ---------- */
+.pie {
+  margin-top: -70px;
+}

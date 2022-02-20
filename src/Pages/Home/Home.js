@@ -7,6 +7,7 @@ import Footer from '../Shared/Footer/Footer';
 import Nav from '../Shared/Nav/Nav';
 import Anime from '../Anime/Anime/Anime';
 import './Home.css';
+import PieChart from '../Anime/PieChart/PieChart';
 
 const Home = () => {
     const [search, setSearch] = useState([])
@@ -47,7 +48,7 @@ const Home = () => {
                     </div>
                     <div className='container'>
                         {/* pie chart  */}
-
+                        <PieChart></PieChart>
 
                     </div>
                 </div>

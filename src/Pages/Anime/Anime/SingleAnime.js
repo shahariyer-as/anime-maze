@@ -28,8 +28,8 @@ const SingleAnime = () => {
                                 <div className="card-body">
                                     <h5 className="text-left card-title">ANALYTICS</h5>
                                     <p className="card-text  text-center"><b>synopsis : </b>" {sg.synopsis}" </p>
-                                    <div className="  card-text card-info">
-                                        <p><b>Total Episodes : </b> {sg.episodes}</p>
+                                    <div className="px-3 card-text card-info">
+                                        <p className=''><b>Total Episodes : </b> {sg.episodes}</p>
                                         <p><b>Score : </b> {sg.score}</p>
                                         <p><b>type : </b> {sg.type}</p>
                                         <div className='date-card'>
