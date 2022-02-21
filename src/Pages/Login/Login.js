@@ -83,7 +83,6 @@ const Login = () => {
 
     return (
         <div className='login-section'>
-
             <div className='form-middle'>
                 <h1 className='color-text' >ANIME MAZE</h1>
                 <form action="" onSubmit={handleLoginForm}>
